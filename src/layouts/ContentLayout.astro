@@ -20,9 +20,9 @@ export interface Props {
 }
 
 const { title, date } = Astro.props;
-const formattedDate = new Date(date).toLocaleDateString("en-us", {
+const formattedDate = new Date(date).toLocaleDateString("eng-GB", {
   year: "numeric",
-  month: "short",
+  month: "long",
   day: "numeric",
 });
 ---

@@ -27,9 +27,9 @@ const sortedPosts = posts
         sortedPosts.map((post) => {
           const formattedDate = new Date(
             post.frontmatter.date
-          ).toLocaleDateString("en-us", {
+          ).toLocaleDateString("en-UK", {
             year: "numeric",
-            month: "short",
+            month: "2-digit",
             day: "numeric",
           });
           return (
