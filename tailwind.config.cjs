@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       fontFamily: {
         body: ["Roboto Mono", "sans-serif"],
-        heading: ["Roboto Mono", "sans-serif"],
+        heading: ["Inter", "sans-serif"],
       },
       colors: {
         transparent: "transparent",
