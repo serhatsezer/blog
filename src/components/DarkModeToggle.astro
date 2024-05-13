@@ -43,11 +43,7 @@
     }
   }
   function updateStorageTheme(mode: "light" | "dark") {
-    if (mode === "dark") {
-      sessionStorage.setItem("theme", "dark");
-    } else {
-      sessionStorage.setItem("theme", "light");
-    }
+    sessionStorage.setItem("theme", mode);
   }
   class ModeToggle extends HTMLElement {
     constructor() {
@@ -107,6 +103,5 @@
   .dark {
     transform: translateX(1.5rem);
     background-color: black;
-    
   }
 </style>

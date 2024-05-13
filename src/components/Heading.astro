@@ -11,6 +11,8 @@ const { level, children } = Astro.props;
 const headingText = children.length && typeof children[0] === 'string' ? children[0] : '';
 const id = slugify(headingText.toLowerCase());
 
+console.log(`slugified id ${id}`)
+
 let Tag: HTMLTag = "h1";
 let withBorder = false;
 if (level === 2) {
