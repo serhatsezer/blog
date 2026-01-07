@@ -12,7 +12,7 @@ date: 2026-01-06
 
 ---
 
-I have been developing mobile app since 2015 as an first iOS developer and then moved from Ionic, Cordova, Adobe Air and many others. I always loved developing apps for mobile. So lately I have been developing mobile apps by using React Native with "Bare flow" then using Expo. I think Expo leverage React Native development. It made it easy to develop and deploy by using EAS.
+I have been developing mobile apps maybe more than 8+ years first; Ionic, Cordova, Adobe Air then moved to native development with Objective-C, Swift, Android with XML, now SwiftUI and Kotlin Jetpack compose. I always loved developing apps for mobile. So lately I have been developing mobile apps by using React Native with "Bare flow" then using Expo. I think Expo leverage React Native development. It made it easy to develop and deploy by using EAS.
 
 Developing mobile apps or software engineering in general are way faster thanks to LLM coding agents. Before the biggest reason why any organisation were choosing React Native were by having the "write once deploy everywhere" mentality meaning that your React Native code can work both iOS and Android. I think for a long time that was the case and it may still is. But I would like to challenge this idea.
 
