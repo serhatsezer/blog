@@ -78,7 +78,7 @@
         background-color: theme('colors.bg.body');
         color: theme('colors.text.body');
         /* base font-size 1px larger for better visibility */
-        font-size: 1.35em;
+        font-size: 1.15em;
         line-height: 2.0;
         scroll-behavior: smooth;
     }
